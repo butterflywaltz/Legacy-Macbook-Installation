@@ -1,6 +1,8 @@
 # Installing Windows 10 via Bootcamp on an old macbook (fresh install in 2023)  
 For old macs, like my MBP5,4, only Windows 7 is officially supported. But Windows 10 install is possible, I am writing from that.  
 
+I first tried to upgrade from Windows 7 32bit, wasn't successful, it will block saying 'Invalid path in system registry'. This is a vague error, after checking the log, I find it just stopped because activation server didn't respond, which is expected, as the official migration program stopped years ago and unofficial migration, finally stopped Sep 2023. So I went for a fresh install after (and fortunately I did, as Bootcamp 6 longer supports 32bit and Bootcamp 4 will run into problems).
+
 ## Creation of a Boot Camp Assistant that allows Win10 installation
 You first need a modified copy of Boot Camp Assistant. Follow these steps:  
 1. make a copy of Boot Camp Assistant, call it Boot Camp Win10 Assistant  
